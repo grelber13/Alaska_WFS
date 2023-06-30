@@ -36,8 +36,7 @@ Available in the **/scripts/** folder are the following files:
 2. **00b_pull_NOAA_data.R** - pulls and cleans relative humidity and temperature data from the NOAA ASOS network using the `riem` and `rnoaa` packages
 3. **00c_finalize_exposure_data.R** - merges and cleans PM2.5 and weather data to create dataset with single daily observations for each study site
 4. **00d_HFDR_data_cleaning.R** - cleans HFDR emergency department visits data and creates case-crossover dataset
-5. **00e_heat_data_cleaning.R** - calculates heat index and creates lagged heat index variables for the entire case-crossover dataset
-6. **01_overall_threshold_analysis.R** - conducts the threshold analysis for the entire dataset using conditional logistic regression
-7. **02_overall_heatwave_analysis.R** - conducts the acute and ongoing heatwave analyses for the entire dataset using conditional logistic regression
-8. **03_stratified_threshold_analysis.R** - conducts stratifies threshold analyses using conditional logistic regression
-9. **04_stratified_heatwave_analysis.R** - conducts stratified acute and ongoing ehatwave analyses using conditional logistic regression
+6. **01_overall_casecross_analysis.R** - conducts the case-crossover single day and distributed lag model analyses for the entire dataset using conditional logistic regression
+7. **02_stratified_casecross_analysis.R** - conducts stratified case-crossover single day and distributed lag model analyses using conditional logistic regression
+8. **03a_clean_ozone_data.R** - clean DEC ozone data
+9. **03b_ozone_sensitivity_analysis.R** - conduct sensitivity analysis with ozone included as covariate
